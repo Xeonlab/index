@@ -1,0 +1,338 @@
+body{
+	margin: 0;
+	background: #000;
+	overflow-x: hidden;
+}
+
+.main-top{
+	width: 100%;
+	height: 100vh;
+}
+#matrix{
+	opacity: 0.9;
+}
+.slides-section{
+	display: block;
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index:0;
+	transition: 0s linear;
+}
+#autoplay{
+	display: block;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 100%;
+	text-align: center;
+	top: 20vw;
+	font-family: Time New Roman;
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 0px 0px 10px #000, 0px 0px 20px #000, 0px 0px 30px #000, 0px 0px 40px #000, 0px 0px 50px #000, 0px 0px 60px #000, 0px 0px 70px #000, 0px 0px 80px #000, 0px 0px 90px #000, 0px 0px 100px #000;
+}
+#autoplay p{
+	opacity: 0;
+}
+.main{
+	display: block;
+	position: relative;
+	width: 100%;
+	background: #000;
+	z-index: 1;
+}
+
+.blue-bg {
+  color: #00e500;
+  height: 100%;
+}
+
+.circle {
+  font-weight: bold;
+  padding: 10px 0px;
+  border-radius: 50%;
+  background-color: rgba(0, 229, 0, 0.3);
+  color: #000;
+  max-height: 50px;
+  z-index: 2;
+  border: 3px solid #00e500;
+  width: 50px;
+  height: 50px;
+}
+
+.how-it-works.row {
+  display: flex;
+}
+.how-it-works.row .col-2 {
+  display: inline-flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: calc(50% - 2px);
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 1px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: calc(50% - 2px);
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 50px;
+}
+.timeline hr {
+  border-top: 3px solid #00e500;
+  margin: 0;
+  top: 22px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #00e500;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: calc(50% - 2px);
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: calc(-50% + 2px);
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: calc(-50% + 2px);
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: calc(50% - 2px);
+  top: calc(50% - 3px);
+}
+.row.timeline{
+	position: relative;
+}
+.line-anima{
+	background: #000;
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+}
+.rine-anima{
+	background: #000;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+.how-it-works.row h5, .how-it-works.row p{
+	z-index: 2;
+	position: relative;
+	opacity: 0;
+	min-height: 24px;
+}
+[data-aos="linea"]{
+	width: 100%;
+}
+[data-aos="linea"].aos-animate {
+	width: 0;
+}
+/*.line-anima.l1{
+	-webkit-animation: linea 1s linear forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: linea 1s linear forwards;
+    animation-delay: 0.5s;
+}
+.line-anima.l2{
+	-webkit-animation: linea 0.5s linear forwards;
+    -webkit-animation-delay: 1.5s;
+    animation: linea 0.5s linear forwards;
+    animation-delay: 1.5s;
+}*/
+
+#portfolio h4{
+	display: block;
+	widows: 100%;
+	font-family: arial;
+	color: #00e500;
+	text-align: center;
+	padding-left: 3px;
+	margin-bottom: -30px;
+	opacity: 0;
+	-webkit-transition: 1s 1.5s;
+	transition: 1s 1.5s;
+}
+
+.footer{
+	display: block;
+	background: #000;
+	margin-top: 120px;
+	margin-bottom: 40px;
+}
+.thanks{
+	font-family: arial;
+	font-size: 28px;
+	color: #00e500;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.made{
+	font-family: arial;
+	font-size: 18px;
+	color: #00e500;
+	text-align: center;
+	font-weight: normal;
+}
+.striked{
+	text-decoration: line-through;
+}
+
+.particles-js-canvas-el{
+	position: absolute;
+	top: 0;
+}
+
+#info {
+				position: absolute;
+				width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family: Monospace;
+				font-size: 13px;
+				font-weight: bold;
+				text-align: center;
+				z-index: 1;
+			}
+
+			#menu {
+				position: absolute;
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+			}
+
+			.element {
+				width: 200px;
+				height: 200px;
+				box-shadow: 0px 0px 12px rgba(0, 229, 0,0.5);
+				border: 1px solid rgba(0, 229, 0,0.25);
+				text-align: center;
+			}
+
+			.element:hover {
+				box-shadow: 0px 0px 12px rgba(0, 229, 0,0.75);
+				border: 1px solid rgba(0, 229, 0,0.75);
+				
+			}
+
+				.element .number {
+					position: absolute;
+					top: 20px;
+					right: 20px;
+					font-size: 12px;
+					color: rgba(0, 229, 0,0.75);
+				}
+
+				.element .symbol {
+					position: absolute;
+					top: 40px;
+					left: 0px;
+					right: 0px;
+					font-size: 42px;
+					font-weight: bold;
+					color: rgba(255,255,255,0.6);
+					text-shadow: 0 0 10px rgba(0, 229, 0,0.95);
+					line-height: 50px;
+				}
+				.element:hover .symbol {
+					color: rgba(255,255,255,1);
+				}
+
+				.element .details {
+					position: absolute;
+					bottom: 15px;
+					left: 0px;
+					right: 0px;
+					font-size: 12px;
+					color: rgba(0, 229, 0,0.75);
+					color: rgba(0, 229, 0,0.75);
+				}
+#portfolio{
+	height: 100vh;
+	background: #000;
+	padding: 0;
+	margin: 30vh 0;
+	margin-bottom: 10vh;
+}
+#portfolio > div{
+	overflow: visible !important;
+	cursor: move;
+}
+#power{
+	width: 100%;
+	opacity: 0;
+	height: 97vh;
+}
+#power path{
+	fill: none;
+	stroke: rgba(0,229,0,0.9);
+}
+#power #Xeon, #power #HTML, #power #CSS, #power #Javascript, #power #Creativity{
+	stroke-width: 3px;
+	stroke: #00e500;
+	
+}
+
+#power.finished path{
+	stroke: rgba(0,229,0,0.9);
+	animation: pathanim 4s ease-in-out 0s infinite;
+	-webkit-animation: pathanim 4s ease-in-out 0s infinite;
+}
+
+#power.finished #Xeon, #power.finished #HTML, #power.finished #CSS, #power.finished #Javascript, #power.finished #Creativity {
+	fill: #00e500;
+	animation: textanim 1s linear 0s forwards;
+	-webkit-animation: textanim 1s liner 0s forwards;
+}
+
+#power.finished .cls-3, #power.finished .cls-4{
+	animation: circleanim 4s ease-in-out 0s infinite;
+	-webkit-animation: circleanim 4s ease-in-out 0s infinite;
+}
+
+@-webkit-keyframes pathanim {
+  0%   {stroke: rgba(0,229,0,0.9);}
+  50%   {stroke: rgba(0,229,0,0.3);}
+  100% {stroke: rgba(0,229,0,0.9);}
+}
+@-webkit-keyframes circleanim {
+  0%   {stroke: rgba(0,229,0,0.9);}
+  50%   {stroke: rgba(0,229,0,0.4);}
+  100% {stroke: rgba(0,229,0,0.9);}
+}
+@-webkit-keyframes textanim {
+  0% {stroke-width: 3;fill-opacity: 0;}
+  100% {stroke-width: 0;fill-opacity: 1;}
+}
