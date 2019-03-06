@@ -282,6 +282,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -292,6 +293,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -302,6 +304,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -312,6 +315,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -322,6 +326,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -332,6 +337,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -342,6 +348,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -352,6 +359,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 "Pixel", "focus", "https://themeforest.net/item/pixelfocus-one-page-html-template/22952784", 1, 1,
 "Awm", "Systems", "http://www.awmsystems.com/", 18, 1,
@@ -362,6 +370,7 @@ var table = [
 "Trimed", "ltd", "http://dailyfun.pk/.xeon/trimed/", 1, 1,
 "Live", "Soccer", "http://dailyfun.pk/.xeon/livesoccer/", 18, 1,
 "Rose", "Gloves", "http://rosegloves.com/main.php", 1, 2,
+//"Laptop", "Club", "http://www.mylaptopclub.com/", 1, 1,
 "Daily", "Fun", "http://dailyfun.pk/", 1, 1,
 			];
 
@@ -576,4 +585,15 @@ this.destroy();
 },  
 { 
     offset: '40%', 
+});
+ if ($(window).width() < 768) {
+     $('body').append('<div class="wmsg">Visit on a bigger Computer screen for better experience</div>');
+  }
+ $(window).resize(function() {
+  if ($(window).width() < 768) {
+     $('body').append('<div class="wmsg">Visit on a bigger Computer screen for better experience</div>');
+  }
+ else {
+    $('.wmsg').remove();
+ }
 });
